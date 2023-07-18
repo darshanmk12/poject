@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+    <style>
+        .first{
+            margin-left: 250px;
+            display: flex;
+            
+        }
+        
+        .first a{
+            position: relative;
+            left: 400px;
+            top: 30px;
+        }
+        .box{
+            height: 100px;
+            width: 1150px;
+            margin-left: 100px;
+            background-color: whitesmoke;
+            box-shadow: 3px 2px 2px black;
+            
+
+        }
+        .box img{
+            height: 80px;
+            width: 80px;
+            position: relative;
+            left: 20px;
+            top: 10px;
+            
+        }
+        .box nav{
+            display: flex;
+            font-size: 20px;
+            position: relative;
+            left: 100px;
+            bottom: 70px;
+            
+        }
+        .box nav a{
+            text-decoration: none;
+            margin: 25px;
+            color: black;
+            
+        }
+        .box ::after{
+            content: '';
+            position: absolute;
+            background-color: red;
+            height: 3px;
+            width: 0;
+            left: 0;
+            bottom: -10px;
+            transition: 0.3s;
+            border-radius: 2px;
+        }
+        .box a:hover::after{
+            width: 100%;
+        }
+        .box button{
+            height: 40px;
+            width: 150px;
+            background-color: red;
+            border: red;
+            border-radius: 30px;
+            font-size: 12px;
+            color: white;
+        }
+        .second h4{
+            margin-left: 400px;
+            font-size: 20px;
+            color: darkolivegreen;
+            position: relative;
+            bottom: 30px;
+            
+            
+        }
+        .second h1{
+            margin-left: 200px;
+            font-size: 60px;
+            position: relative;
+            bottom: 50px;
+            color: black;
+            opacity: 0.8;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .second p{
+            position: relative;
+            bottom: 60px;
+            font-size: 20px;
+            opacity: 0.6;
+            text-align: center;
+    
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="first">
+        <h4>free marketing packages for non -profit organisation</h4>
+        <nav>
+            <!-- <h4>follow us on</h4> -->
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+            <a href=""><i class='bx bxl-google' ></i></a>
+            <a href=""><i class='bx bxl-twitter' ></i></a>
+            <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+        </nav>
+    </div>
+    <div class="box">
+        <img src="download (5).png" alt="">
+        <nav>
+            <a href="">brand</a>
+            <a href="">seo</a>
+            <a href="">branding</a>
+            <a href="">ppc</a>
+            <a href="">about us</a>
+            <a href="">blog</a>
+            <a href="">contacy us</a>
+            <a href=""><i class='bx bx-search-alt'></i></a>
+            <a href=""><i class='bx bx-cart'></i></a>
+            <a href=""><button>book a free consultation</button></a>
+        </nav>
+        
+    </div>
+    <div class="second">
+        <h4>WEBSITE, BRANDING & DIGITAL MARKETING</h4>
+        <h1>EVERYTHING IN ONE PLACE</h1>
+        <p>Brandcurb is a one-stop shop hub—youll have everything from branding<br>to digital marketing services available to you to effectively, efficiently,<br>and sustainably grow your business.</p>
+
+    </div>
+    <div class="botton">
+        <a href=""><button>Explore our service</button></a>
+        <a href=""><button>Book a free consultation</button></a>
+    </div>
+
+</body>
+</html>
